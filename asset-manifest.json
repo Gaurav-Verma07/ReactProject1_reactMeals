@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactProject1_reactMeals/static/css/main.fe30f3a6.css",
+    "main.js": "/ReactProject1_reactMeals/static/js/main.cc34847a.js",
+    "static/js/787.6425a746.chunk.js": "/ReactProject1_reactMeals/static/js/787.6425a746.chunk.js",
+    "index.html": "/ReactProject1_reactMeals/index.html",
+    "main.fe30f3a6.css.map": "/ReactProject1_reactMeals/static/css/main.fe30f3a6.css.map",
+    "main.cc34847a.js.map": "/ReactProject1_reactMeals/static/js/main.cc34847a.js.map",
+    "787.6425a746.chunk.js.map": "/ReactProject1_reactMeals/static/js/787.6425a746.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe30f3a6.css",
+    "static/js/main.cc34847a.js"
+  ]
+}
