@@ -1,0 +1,41 @@
+@import "../Styles/variables.scss";
+.cartItem {
+  width: 100%;
+  display: flex;
+  //flex-direction: column;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  animation-name: cart-down;
+  padding: 0 1rem;
+  @media (max-width: 600px) {
+    margin-bottom: 0.3rem;
+  }
+  &__row {
+    color: #000;
+    align-content: start;
+  }
+  &__button {
+    padding: 1rem;
+    @media (max-width: 600px) {
+      padding: 0.5rem;
+    }
+    &--btn {
+      border: 1px solid $color-primary;
+      padding: 0.3rem 01rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 1rem;
+    }
+  }
+}
+
+@keyframes cart-down {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

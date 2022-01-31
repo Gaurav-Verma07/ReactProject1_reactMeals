@@ -1,0 +1,30 @@
+.normal {
+  position: fixed;
+  background-color: #fff;
+
+  margin: 10rem auto 0 30rem;
+  min-width: 25rem;
+  border-radius: 15px;
+  //transform: translate(-50%, -50%);
+  transform: translateX(10px);
+  padding: 2rem;
+  z-index: 20;
+  align-items: center;
+  animation: cart 1s;
+  @media (max-width: 600px) {
+    min-width: auto;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    padding: 0.5rem; // margin-left: 1rem;
+  }
+}
+@keyframes cart {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

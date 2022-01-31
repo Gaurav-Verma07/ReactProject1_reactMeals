@@ -1,0 +1,23 @@
+@import "./variables.scss";
+.card {
+  max-width: 40rem;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  padding: 1rem;
+  border-radius: $primary-border;
+  background-color: #ff6745;
+  color: $color-white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  animation-name: card-anime;
+  animation-duration: 1s;
+}
+@keyframes card-anime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

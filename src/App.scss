@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  //margin: 0;
+  //padding: 0;
+  // box-sizing: inherit;
+}
+
+html {
+  //This defines what 1rem is
+  font-size: 100%; //1rem= 10px; 10px/16px= 62.5%
+  @media (max-width: 600px) {
+    font-size: 0.7rem;
+  }
+}
+
+body {
+  //font-size: 1.6rem;
+  // padding: 3rem;
+  // box-sizing: border-box;
+  background-color: #fcccc7;
+  //height: 100vh;
+}
